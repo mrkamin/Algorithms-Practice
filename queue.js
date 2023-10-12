@@ -1,32 +1,24 @@
-//Create Queue
-function createQueue() {
- // Define an Empty Array to store queue
-   let queue = [];
-   console.log("queue", queue)
-// Add element to the back of queue
-function enqueue(element) {
-   queue.push(element)
-   console.log("enqueue", queue)
-}
-
-// Remove the element from the front of the queue means the element added first removed first
-function dequeue() {
-   return queue.shift()
-   console.log("Dequeue", queue)
-}
-return {
-   queue,
-   enqueue,
-   dequeue
-}
-}
-
-const numbersqueu = createQueue()
-
-numbersqueu.enqueue(10)
-numbersqueu.enqueue(20)
-console.log(numbersqueu.queue)
+// Playing with array
+// ADDING VALUE TO AN ARRAY
+ 
+let myArray = [10, "Mohaamd"];
 
 
-console.log(numbersqueu.dequeue())
+// HOW WE CAN ADD VALUE TO THE END OF AN ARRAY
+myArray.push(20)
+console.log(myArray)
+myArray.push("Jon")
+console.log(myArray)
+
+// HOW WE CAN ADD VALUE TO THE BEGGING OF AN ARRAY
+myArray.unshift(30)
+console.log(myArray)
+myArray.unshift("Mike")
+console.log(myArray)
+
+// HOW WE CAN USE INDEXING TO ADD VALUE IN MIDDLE OR DEFERNT POSSITION OF THE ARRAY
+const atWhichIndex = 3;
+const valueAddToArray = "Mohammad";
+myArray.splice(atWhichIndex, 0, valueAddToArray)
+console.log(myArray)
 
