@@ -9,3 +9,4 @@ const myNewArray = Array.from(myArray);
 console.log(myNewArray); // output = []
 const my2NewArray = Array.from(arrayOfStringNumbers);
 console.log(my2NewArray); // output = [ 'one', 'two', 'three' ]
+console.log(my2NewArray[1]); // output = two
