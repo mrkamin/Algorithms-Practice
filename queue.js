@@ -1,4 +1,5 @@
-const fruits = ["apple", "banana", "orange", "kiwi", "mango"];
-const filteredFruitsArray = fruits.filter((fruit) => fruit === "banana" || fruit === "orange");
 
-console.log(filteredFruitsArray); // output = [ 'banana', 'orange' ]
+
+const numbers = [1,2,3,4,5,6];
+const filterNumbersArray = numbers.filter((number) => number === 2 || number === 4);
+console.log(filterNumbersArray); // output == [ 2, 4 ]
