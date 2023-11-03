@@ -1,3 +1,4 @@
-const numbers = [1,2,3,4,5];
-const sumOfNumbers = numbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
-console.log(sumOfNumbers); // output = 15
+const arr = [1,2,3,4,5, "Mohammad"];
+for (let i = 0; i < arr.length; i++) {
+    console.log(arr[i])
+}
