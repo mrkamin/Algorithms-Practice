@@ -1,9 +1,11 @@
-let arrOfNumbers = [1,2,3,4,5]
-let arrOfStrings = ["A","B", "C"]
-let arrOfArrays = [[1,2,3,4,5], ["A","B", "C"]]
-let arrOfObjects = [{name: "Mohammad", age: 33}, {name: "Rafi", age: 25}]
+let arrOfNumbers = [1,2,3,4,5];
+// let arrOfStrings = ["a", "b", "c"];
+// let arrOfObjects = [{name: "Mohammad", age: 33}, {name: "Rafi", age: 35}, ["a","b","c"]];
+// let arrOfArrays = [[1,2,3,4,5], ["a","b","c"],{name: "Rafi", age: 35}]
+// for (let i = 0 ; i < arrOfNumbers.length-2; i++) {
+//     console.log(arrOfNumbers[i])
+// }
 
-console.log(arrOfNumbers[0]);
-console.log(arrOfStrings[1]);
-console.log(arrOfArrays[0]);
-console.log(arrOfObjects[1])
+let newArrOfNumbers = Array.from(arrOfNumbers)
+console.log("this is New array of numbers", newArrOfNumbers)
+console.log("this is old array of numbers", arrOfNumbers)
